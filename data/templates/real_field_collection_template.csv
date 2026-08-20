@@ -1,0 +1,4 @@
+experiment_id,data_hora,fase,ponto_1_cm,ponto_2_cm,ponto_3_cm,ponto_4_cm,ponto_5_cm,altura_media_cm,temp_media_c,precipitacao_mm,umidade_media_pct,fonte_clima,observacoes
+REAL001,14/08 08:00,D0_CONTEXTO,60,56,53,80,,62.25,,,,,Primeira medição real da área fixa.
+REAL001,15/08 08:00,D2_PREVISAO,60.3,56.1,53,80.1,,62.37,,,,,Segunda medição; momento em que a previsão para D4 será gerada.
+REAL001,17/08,D4_VALIDACAO,60.5,57,53.5,80.7,,62.92,,,,,Terceira medição; usada somente para validar a previsão.

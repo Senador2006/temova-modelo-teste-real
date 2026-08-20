@@ -1,0 +1,43 @@
+{
+  "model_version": "2.3.0",
+  "look_back": 2,
+  "context_days": 2,
+  "horizon_days": 2,
+  "sequence_feature_order": [
+    "altura_cm",
+    "temp_media_c",
+    "precipitacao_mm",
+    "umidade_media_pct"
+  ],
+  "sequence_t1": [
+    "altura_t1_cm",
+    "temp_t1_c",
+    "precipitacao_t1_mm",
+    "umidade_t1_pct"
+  ],
+  "sequence_t2": [
+    "altura_t2_cm",
+    "temp_t2_c",
+    "precipitacao_t2_mm",
+    "umidade_t2_pct"
+  ],
+  "future_features": [
+    "temp_futuro_2d_c",
+    "precipitacao_futuro_2d_mm",
+    "umidade_futuro_2d_pct"
+  ],
+  "target": "crescimento_futuro_2d_cm",
+  "baseline": "altura_t2_cm - altura_t1_cm",
+  "scaler_type": "StandardScaler",
+  "architecture": "LSTM(32) + concat future(3) + Dense(16) + Dense(1)",
+  "feature_units": {
+    "altura_cm": "cm",
+    "temp_media_c": "C",
+    "precipitacao_mm": "mm",
+    "umidade_media_pct": "pct"
+  },
+  "seed": 20260813,
+  "train_samples": 7000,
+  "val_samples": 1500,
+  "test_samples": 1500
+}

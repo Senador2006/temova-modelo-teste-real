@@ -1,0 +1,2 @@
+sample_id,altura_t1_cm,temp_t1_c,precipitacao_t1_mm,umidade_t1_pct,altura_t2_cm,temp_t2_c,precipitacao_t2_mm,umidade_t2_pct,temp_futuro_2d_c,precipitacao_futuro_2d_mm,umidade_futuro_2d_pct,crescimento_passado_2d_cm,crescimento_futuro_2d_cm,data_previsao,altura_real_d4_cm,crescimento_real_2d_cm,crescimento_previsto_2d_cm,erro_absoluto_cm,baseline_previsto_2d_cm,model_version,erro_absoluto_baseline_cm
+REAL001,62.25,21.0,0.0,95.0,62.37,20.5,6.5,85.0,25.0,0.0,56.0,0.12,,2026-08-15,62.92,0.55,0.1999,0.3501,0.12,2.3.0,0.43

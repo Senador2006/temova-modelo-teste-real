@@ -1,0 +1,18 @@
+﻿coluna,tipo,descricao,unidade,usar_no_modelo,papel
+sample_id,string,Identificador único da janela,-,Não,Metadado
+altura_t1_cm,float,Altura média em D0 (início da janela de 2 dias),cm,Sim,Entrada LSTM
+temp_t1_c,float,Temperatura média observada em D0,°C,Sim,Entrada LSTM
+precipitacao_t1_mm,float,Precipitação observada em D0,mm,Sim,Entrada LSTM
+umidade_t1_pct,float,Umidade relativa média observada em D0,%,Sim,Entrada LSTM
+altura_t2_cm,float,Altura média em D2 (fim do contexto / momento da previsão),cm,Sim,Entrada LSTM
+temp_t2_c,float,Temperatura média observada em D2,°C,Sim,Entrada LSTM
+precipitacao_t2_mm,float,Precipitação observada em D2,mm,Sim,Entrada LSTM
+umidade_t2_pct,float,Umidade relativa média observada em D2,%,Sim,Entrada LSTM
+temp_futuro_2d_c,float,Temperatura média prevista em D2 para a janela D2→D4,°C,Sim,Entrada futura
+precipitacao_futuro_2d_mm,float,Precipitação acumulada prevista em D2 para D2→D4,mm,Sim,Entrada futura
+umidade_futuro_2d_pct,float,Umidade média prevista em D2 para D2→D4,%,Sim,Entrada futura
+crescimento_passado_2d_cm,float,altura_D2 - altura_D0; crescimento da janela de contexto (2 dias); baseline,cm,Opcional,Feature derivada
+crescimento_futuro_2d_cm,float,altura_D4 - altura_D2; target do treino,cm,Sim no treino,TARGET
+data_previsao,string,Data em que a previsão foi gerada (D2),-,Não,Metadado
+altura_real_d4_cm,float,Altura média medida em D4; holdout de campo,cm,Não,Validação
+crescimento_real_2d_cm,float,altura_real_d4_cm - altura_t2_cm; crescimento real D2→D4,cm,Não,Validação

@@ -1,0 +1,31 @@
+experiment_id,data_hora,fase,ponto_1_cm,ponto_2_cm,ponto_3_cm,ponto_4_cm,ponto_5_cm,altura_media_cm,temp_media_c,precipitacao_mm,umidade_media_pct,fonte_clima,observacoes
+REAL001,2026-08-07 09:20:00,D0_CONTEXTO,69.493,62.477,58.859,63.277,62.851,63.391,18.81,13.71,74.77,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL001,2026-08-09 09:20:00,D2_PREVISAO,69.311,62.394,59.137,63.504,63.429,63.555,20.38,14.79,67.19,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=17.07C, chuva=9.02mm, umidade=77.79%."
+REAL001,2026-08-11 09:20:00,D4_VALIDACAO,69.626,62.92,59.41,64.009,63.529,63.899,19.03,0.0,83.59,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL002,2026-08-07 09:27:00,D0_CONTEXTO,64.117,52.47,58.413,50.58,63.091,57.734,22.52,8.0,89.18,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL002,2026-08-09 09:27:00,D2_PREVISAO,64.699,53.138,58.848,51.018,63.449,58.23,22.79,35.0,77.56,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=19.76C, chuva=35.51mm, umidade=89.33%."
+REAL002,2026-08-11 09:27:00,D4_VALIDACAO,65.532,53.758,59.432,51.366,64.083,58.834,20.4,5.57,94.97,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL003,2026-08-07 09:34:00,D0_CONTEXTO,79.277,73.712,73.885,68.656,72.455,73.597,23.1,0.0,72.29,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL003,2026-08-09 09:34:00,D2_PREVISAO,79.55,73.924,74.43,68.817,72.721,73.888,22.98,0.0,67.98,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=25.2C, chuva=2.2mm, umidade=61.84%."
+REAL003,2026-08-11 09:34:00,D4_VALIDACAO,79.67,74.238,74.711,69.133,73.017,74.154,23.63,0.0,70.94,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL004,2026-08-07 09:41:00,D0_CONTEXTO,47.593,40.0,52.827,43.752,40.0,44.834,27.57,0.0,58.37,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL004,2026-08-09 09:41:00,D2_PREVISAO,47.935,40.0,53.186,44.097,40.0,45.044,29.34,0.0,52.29,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=29.53C, chuva=0.0mm, umidade=53.64%."
+REAL004,2026-08-11 09:41:00,D4_VALIDACAO,48.632,40.0,53.536,44.526,40.0,45.339,30.41,0.0,47.16,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL005,2026-08-07 09:48:00,D0_CONTEXTO,83.455,71.865,75.605,72.917,74.943,75.757,24.78,0.0,88.32,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL005,2026-08-09 09:48:00,D2_PREVISAO,83.619,72.235,76.053,73.186,75.288,76.076,23.57,0.0,78.21,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=23.63C, chuva=6.12mm, umidade=95.73%."
+REAL005,2026-08-11 09:48:00,D4_VALIDACAO,83.837,72.172,76.169,73.417,75.54,76.227,22.68,0.12,84.63,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL006,2026-08-07 09:55:00,D0_CONTEXTO,62.201,60.061,65.986,49.163,56.487,58.78,21.06,0.0,67.51,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL006,2026-08-09 09:55:00,D2_PREVISAO,62.332,60.312,66.028,49.303,56.892,58.973,18.31,3.97,77.77,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=19.63C, chuva=0.0mm, umidade=57.93%."
+REAL006,2026-08-11 09:55:00,D4_VALIDACAO,62.78,60.388,66.541,49.62,57.167,59.299,19.71,0.0,63.92,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL007,2026-08-07 10:02:00,D0_CONTEXTO,72.324,58.806,70.697,63.444,65.263,66.107,27.95,0.0,62.94,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL007,2026-08-09 10:02:00,D2_PREVISAO,72.36,59.042,70.902,63.167,65.414,66.177,24.79,0.0,64.56,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=29.9C, chuva=2.0mm, umidade=55.62%."
+REAL007,2026-08-11 10:02:00,D4_VALIDACAO,72.664,59.223,71.158,63.569,65.567,66.436,26.94,0.0,55.24,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL008,2026-08-07 10:09:00,D0_CONTEXTO,52.583,51.814,43.559,61.682,41.9,50.308,23.22,1.52,75.78,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL008,2026-08-09 10:09:00,D2_PREVISAO,53.196,52.307,44.185,62.235,42.387,50.862,21.43,2.48,87.28,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=20.35C, chuva=13.12mm, umidade=77.18%."
+REAL008,2026-08-11 10:09:00,D4_VALIDACAO,53.497,52.869,44.369,62.449,42.723,51.181,22.82,0.0,82.36,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL009,2026-08-07 10:16:00,D0_CONTEXTO,85.997,79.077,77.18,81.219,65.479,77.79,23.88,0.0,64.88,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL009,2026-08-09 10:16:00,D2_PREVISAO,85.996,78.885,77.292,81.205,65.184,77.712,26.51,5.22,73.35,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=23.67C, chuva=4.56mm, umidade=75.45%."
+REAL009,2026-08-11 10:16:00,D4_VALIDACAO,86.21,79.037,77.669,81.291,65.529,77.947,22.36,0.0,74.14,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
+REAL010,2026-08-07 10:23:00,D0_CONTEXTO,40.0,40.0,44.439,50.359,40.298,43.019,28.94,0.0,57.81,Observado (API simulada),Primeira medição da área fixa. Janela de contexto: 2 dias.
+REAL010,2026-08-09 10:23:00,D2_PREVISAO,40.0,40.0,44.689,50.615,40.242,43.109,28.61,3.62,64.35,Observado (API simulada),"Momento da previsão. Forecast D2->D4: temp=32.97C, chuva=0.0mm, umidade=68.43%."
+REAL010,2026-08-11 10:23:00,D4_VALIDACAO,40.193,40.0,45.293,51.447,40.903,43.567,31.89,0.0,67.33,Observado (API simulada),Usado somente para validar. Nao entra como feature da LSTM.
